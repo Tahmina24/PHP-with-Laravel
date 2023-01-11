@@ -1,0 +1,22 @@
+ .div-one{
+     height: 300px;/* vh=purabackgraound er 100% nie kaj kora*/
+     width: 400px;
+     background-color:green;
+     float: left;
+     margin-top: 10px;
+     box-sizing: border-box;
+     border: solid gray;
+     padding-top: 100px;
+     padding-bottom: 100px;
+           }
+/*
+ only height use korle tar sathe border+padding auto hoi.
+ only width use korle tar sathe border+padding auto hoi..
+ To solve this problem using box-sizing: border-box
+ */
+ .div-two{
+     height: 500px;/* vh=purabackgraound er 100% nie kaj kora*/
+     width: 400px;
+     background-color:red;
+     float: left;
+ }
