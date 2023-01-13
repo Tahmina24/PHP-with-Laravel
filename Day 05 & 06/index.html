@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Day 05</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"><!--navbar-expand: flaw length-->
+        <div class="container"><!--Somoporiman gap create kora.-->
+            <a href="" class="navbar-brand">LOGO</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">  <!--To remove bullet, extra margin-padding/ ml- left e nibe logo-->
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">About</a></li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Service one</a> </li>
+                            <li><a href="" class="dropdown-item">Service two</a> </li>
+                            <li><a href="" class="dropdown-item">Service three</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel slide" data-ride="carousel" data-interval="1800" id="slider">
+        <ol class="carousel-indicators">
+           <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/bangladesh.jpg" alt="" class="w-100" style="height: 550px;">
+                <div class="carousel-caption my-caption">
+                    <h1>This is a caption heading.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, commodi consequuntur, cupiditate deserunt et eum ipsa iure laboriosam magnam non omnis quae qui rem repudiandae sit, ullam veniam veritatis voluptatibus.</p>
+                    <a href="" class="btn btn-dark">Read More</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/Flag.png" alt="" class="w-100" style="height: 550px;">
+                <div class="carousel-caption my-caption">
+                    <h1>This is a caption heading.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, commodi consequuntur, cupiditate deserunt et eum ipsa iure laboriosam magnam non omnis quae qui rem repudiandae sit, ullam veniam veritatis voluptatibus.</p>
+                    <a href="" class="btn btn-dark">Read More</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/image3.jpg" alt="" class="w-100" style="height: 550px;">
+                <div class="carousel-caption my-caption">
+                    <h1>This is a caption heading.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, commodi consequuntur, cupiditate deserunt et eum ipsa iure laboriosam magnam non omnis quae qui rem repudiandae sit, ullam veniam veritatis voluptatibus.</p>
+                    <a href="" class="btn btn-dark">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#slider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#slider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!--Card View-->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Card View 2-->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>This is a card heading.</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias consequuntur corporis dolore eaque error esse harum illo in, ipsam itaque laborum laudantium mollitia nihil provident saepe sunt tempore tenetur.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-body">
+                        <h3 class="text-center">This is a content.</h3>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, omnis, quis. Animi architecto beatae eveniet fuga, illo modi possimus repellat sapiente soluta voluptate? Ducimus, explicabo hic iure modi quam soluta!</p>
+                        <a href="" class="btn btn-outline-success w-50">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-body">
+                        <h3 class="text-center">This is a content.</h3>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, omnis, quis. Animi architecto beatae eveniet fuga, illo modi possimus repellat sapiente soluta voluptate? Ducimus, explicabo hic iure modi quam soluta!</p>
+                        <a href="" class="btn btn-outline-success w-50">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-body">
+                        <h3 class="text-center">This is a content.</h3>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, omnis, quis. Animi architecto beatae eveniet fuga, illo modi possimus repellat sapiente soluta voluptate? Ducimus, explicabo hic iure modi quam soluta!</p>
+                        <a href="" class="btn btn-outline-success w-50">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-header">
+                            <h3>This is a heading</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam beatae dicta dolor dolorem doloribus dolorum ducimus earum facere hic, inventore iure nobis optio quam quasi recusandae unde vel voluptates.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-header">
+                            <h3>This is a heading</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam beatae dicta dolor dolorem doloribus dolorum ducimus earum facere hic, inventore iure nobis optio quam quasi recusandae unde vel voluptates.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-header">
+                            <h3>This is a heading</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam beatae dicta dolor dolorem doloribus dolorum ducimus earum facere hic, inventore iure nobis optio quam quasi recusandae unde vel voluptates.</p>
+                            <a href="" class="btn btn-outline-success">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/shirt1.jpg" alt="" class="card-img-top h-300">
+                        <div class="card-body">
+                            <h3 class="card-title">Smart Shirt</h3>
+                            <hr/>
+                            <p class="card-text">This is a very nice product.You can puchase it. Thank You.</p>
+                            <p class="card-text">
+                                <del>Tk. 4400</del> <span class="font-weight-bold">TK. 3400</span>
+                            </p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-success">Detail</a>
+                            <a href="" class="btn btn-outline-warning">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/shirt2.jpg" alt="" class="card-img-top h-300">
+                        <div class="card-body">
+                            <h3 class="card-title">Smart Shirt</h3>
+                            <hr/>
+                            <p class="card-text">This is a very nice product.You can puchase it. Thank You.</p>
+                            <p class="card-text">
+                                <del>Tk. 4400</del> <span class="font-weight-bold">TK. 3400</span>
+                            </p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-success">Detail</a>
+                            <a href="" class="btn btn-outline-warning">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/sari1.jpg" alt="" class="card-img-top h-300">
+                        <div class="card-body">
+                            <h3 class="card-title">Smart Shari Collection</h3>
+                            <hr/>
+                            <p class="card-text">This is a very nice product.You can puchase it. Thank You.</p>
+                            <p class="card-text">
+                                <del>Tk. 4400</del> <span class="font-weight-bold">TK. 3400</span>
+                            </p>
+                            <hr/>
+                            <a href="" class="btn btn-outline-success">Detail</a>
+                            <a href="" class="btn btn-outline-warning">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+       <div class="container">
+           <div class="row">
+               <div class="col-6">
+                   <div class="card border-0">
+                       <img src="img/news.jpg" alt="" class="card-img-top">
+                       <div class="card-body">
+                           <h5 class="card-title font-weight-bold">If attacked, Ukraine may join the war Belarus: Russia</h5>
+                           <p class="card-text">At the beginning of the Ukraine war, Russian troops entered Ukraine from neighboring Belarus. And since last October, Moscow has been deploying troops for joint military exercises in Belarus. Since then, the military ties between the two countries have also strengthened.</p>
+                           <p class="card-text">51 minutes ago</p>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-6">
+                    <div class="card border-0">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/news1.jpg" alt="" class="card-img-top w-100 h-157">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body pt-0"> <!--padding top, left-->
+                                    <h5 class="card-title font-weight-bold mb-1">Drizzling rain is joining the cold stream</h5>
+                                    <p class="card-text p-size mb-1">Drizzling rain is going to join with the cold current. Light rain may occur at one or two places in Khulna, Rangpur, Rajshahi, Mymensingh and Sylhet division</p>
+                                    <p class="card-text text-muted p-size mt-0">2 hours ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <hr/>
+                   <div class="card border-0">
+                       <div class="row no-gutters">
+                           <div class="col-4">
+                               <img src="img/news2.jpg" alt="" class="card-img-top w-100 h-157">
+                           </div>
+                           <div class="col-8">
+                               <div class="card-body pt-0"> <!--padding top, left-->
+                                   <h5 class="card-title font-weight-bold mb-1">The Hindu Grand Alliance spoke differently about the number of killings of minorities</h5>
+                                   <p class="card-text p-size mb-1">According to the Hindu Mahazot, 154 people from the country's minority community were killed in 2022. And their 89 thousand 990 acres of land has been</p>
+                                   <p class="card-text text-muted p-size mt-0">2 hours ago</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <hr/>
+                   <div class="card border-0">
+                       <div class="row no-gutters">
+                           <div class="col-4">
+                               <img src="img/news3.jpg" alt="" class="card-img-top w-100 h-157">
+                           </div>
+                           <div class="col-8">
+                               <div class="card-body pt-0"> <!--padding top, left-->
+                                   <h5 class="card-title font-weight-bold mb-1">Two died while crossing the same highway in Natore within an hour</h5>
+                                   <p class="card-text p-size mb-1">A man named Hanif Mia (50) was crushed under a microbus while crossing the Natore-Pabna highway in Baraharishpur area of ​​Natore Sadar Upazila arou</p>
+                                   <p class="card-text text-muted p-size mt-0">3 hours ago</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </section>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
